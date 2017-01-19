@@ -5,11 +5,11 @@ var Route = ReactRouter.Route;
 var hashHistory = ReactRouter.hashHistory;
 var IndexRoute = ReactRouter.IndexRoute;
 var main = require('../component/main');
+var Responsive=require('../container/Responsive');
 
 var routes = (
   <Router history={hashHistory}>
-    <Route path='/' component={main}>
-    </Route>
+    <Route path='/Responsive' component={Responsive}/>
   </Router>
 );
 
